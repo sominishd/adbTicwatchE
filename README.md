@@ -1,6 +1,6 @@
 # ADB for TicWatch E
 
-To remove Mbobvoi apps and Ticwatch System app from the Ticwatch e.
+To remove Mobvoi apps and Ticwatch System app from the Ticwatch e.
 
 ### Prerequisites
 
