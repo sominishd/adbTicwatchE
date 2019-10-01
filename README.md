@@ -17,12 +17,23 @@ A step by step series of examples that tell you how to get a development env run
 ```
 vagrant up
 ```
+open virtualbox,-> USB devices, usb 1.0 _. add usb device filter -> mobvoi watch
 *If using vagrant, ignore the following steps mentioned below.*
 ```
 chmod a+x bootstrap.sh
 ```
 ```
 ./bootstrap.sh
+```
+```
+adb shell pm disable-user --user 0 com.mobvoi.wear.account.aw
+adb shell pm disable-user --user 0 com.mobvoi.wear.heartrate.aw
+adb shell pm disable-user --user 0 com.mobvoi.companion.aw
+adb shell pm disable-user --user 0 com.mobvoi.wear.fitness.aw
+adb shell pm disable-user --user 0 com.mobvoi.wear.social.aw
+adb shell pm disable-user --user 0 com.mobvoi.wear.health.aw
+adb shell pm disable-user --user 0 com.mobvoi.wear.watchface.aw
+adb shell pm disable-user --user 0 com.mobvoi.wear.system.aw
 ```
 
 ## Authors
